@@ -16,7 +16,7 @@ class Paragraph extends React.Component {
   render() {
     return (
       <>
-        <button id="button" onClick={this.setParagraph}>
+        <button id="click" onClick={this.setParagraph}>
           Click
         </button>
         <p id="para">{this.state.paragraph}</p>
