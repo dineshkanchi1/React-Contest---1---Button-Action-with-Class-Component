@@ -7,9 +7,9 @@ class App extends React.Component {
       clicked: false
     };
   }
-  setParagraph = () => {
+  setParagraph() {
     this.setState({ clicked: true });
-  };
+  }
   render() {
     return (
       <div id="main">
