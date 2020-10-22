@@ -9,7 +9,6 @@ class App extends React.Component {
   }
   setParagraph() {
     this.setState({ clicked: true });
-    console.log("dinesh");
   }
   render() {
     return (
