@@ -9,11 +9,12 @@ class App extends React.Component {
   }
   setParagraph() {
     this.setState({ clicked: true });
+    console.log("dinesh");
   }
   render() {
     return (
       <div id="main">
-        <button id="click" type="button" onClick={this.setParagraph}>
+        <button id="click" type="button" onClick={() => this.setParagraph()}>
           Click
         </button>
         {this.state.clicked && (
